@@ -1,0 +1,77 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/images/brand/banner.jpeg);
+}
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2 rem;
+    background: linear-gradient(to right, #ffd700, #ffcc00);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar .logo .logo-img {
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 100px;
+}
+.search-bar {
+    width: 30%;
+    padding: 0.5rem;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+
+.categories a, .whatsapp-btn {
+    background-color: #25d366;
+    padding: 0.5rem 1 rem;
+    border-radius: 4px;
+    color:white;
+}
+
+/*category section */
+.category-section {
+    padding: 2rem;
+    background-color:#f9f9f9 ;
+    text-align: center;
+}
+
+.category-grid{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.category-card{
+    padding: 1rem;
+    background:  #ffdd57;
+    border-radius: 8px;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* product highlight */
+.product-highlight {
+    pad: 2rem;
+    text-align: center;
+}
+.product-carousel {
+    display: flex;
+    justify-content: center;
+    gap:1rem ;
+    margin-top: 1rem;
+}
+.product-card{
+    padding: 1rem;
+    width: 200px;
+    background: #ffd700;
+    border-radius: 8px;
+}
